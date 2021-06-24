@@ -21,16 +21,16 @@ export class CreateRentals1624497114035 implements MigrationInterface {
                     },
                     {
                         name: "start_date",
-                        type: "timestamp()",
+                        type: "timestamp",
                         default: "now()",
                     },
                     {
                         name: "end_date",
-                        type: "timestamp()",
+                        type: "timestamp",
                     },
                     {
                         name: "expected_return_date",
-                        type: "timestamp()",
+                        type: "timestamp",
                     },
                     {
                         name: "total",
@@ -38,12 +38,12 @@ export class CreateRentals1624497114035 implements MigrationInterface {
                     },
                     {
                         name: "created_at",
-                        type: "timestamp()",
+                        type: "timestamp",
                         default: "now()",
                     },
                     {
                         name: "updated_at",
-                        type: "timestamp()",
+                        type: "timestamp",
                         default: "now()",
                     },
                 ],
