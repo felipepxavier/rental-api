@@ -46,10 +46,6 @@ class CreateCarUseCase {
             category_id,
         });
 
-        console.log("============");
-        console.log(car);
-        console.log("============");
-
         return car;
     }
 }
