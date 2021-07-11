@@ -65,3 +65,4 @@ Se o carro for devolvido com menos de 24 horas, deverá ser cobrado diária comp
 Ao realizar a devolução, o carro deverá ser liberado para outro aluguel.
 Ao realizar a devolução, o usuario deverá ser liberado para outro aluguel.
 Ao realizar a devolução, deverá ser calculado o total do aluguel.
+o usuario deve estar logado na aplicacao

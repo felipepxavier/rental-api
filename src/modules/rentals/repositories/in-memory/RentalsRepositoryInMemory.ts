@@ -34,6 +34,10 @@ class RentalsRepositoryInMemory implements IRentalsRepository {
 
         return rental;
     }
+
+    findById(id: string): Promise<Rental> {
+        throw new Error("Method not implemented.");
+    }
 }
 
 export { RentalsRepositoryInMemory };
